@@ -1,0 +1,8 @@
+EXECUTE GEST_LIEU.AJOUTER_LIEU('Cinevog','10 Rue Saïd Abou Baker - Tunis - Tunisie',200);
+EXECUTE GEST_LIEU.AJOUTER_LIEU('La Rio','92 Rue de Yougoslavie - Tunis - Tunisie',850);
+
+--SELECT * FROM LIEU;
+
+EXECUTE GEST_LIEU.MODIF_LIEU_CAP(17,300);
+
+--SELECT * FROM LIEU;
