@@ -1,0 +1,16 @@
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES(1,'CABARET RESTAURANT SHEHERAZADE','Médina Mediterranea - Yasmine-Hammamet - Tunisie',100);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (2,'THÉÂTRE EL HAMRA','28, rue El Jazira - Tunis - Tunisie',550);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (3,'Théâtre Municipal de Tunis','Avenue Bourguiba - Tunis - Tunisie',920);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (4,'CINÉMA TUNISIA ODYSSÉE','Medina Mediterranea - Yasmine-Hammamet - Tunisie',805);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (5,'L''ÉTOILE DU NORD','41, avenue Farhat-Hached - Tunis - Tunisie',1328);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (6,'Pathé Tunis City','Cebalet ben ammar, route de bizerte km 17 Ariana, Tunis 2032, Tunisie',1583);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (7,'CENTRE DOUAR EL HASFI','Route du Zoo-Paradis - 2200 - Tozeur - Tunisie',537);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (8,'EL MAWEL','5, rue Amine-Abbassi - Tunis - Tunisie',1743);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (9,'EL TEATRO','Avenue Ouled Haffouz - Tunis - Tunisie',957);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (10,'ZINEBLEDI','route de tunis km12 - 4000 - Sousse - Tunisie',854);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (11,'Le Colisée','Avenue Habib Bourguiba, Tunis, Tunisie',975);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (12,'Cine Jamil','Rue du docteur Mohamed Ben Salah, Ariana, Tunisie',1134);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (13,'L’agora','Rue 1 La marsa',218);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (14,'Alhambra zéphyr','Centre Commercial Zéphyr La Marsa',768);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (15,'CinéMadart','Rue Hbib Bourguiba - Monoprix Dermech, Tunisie',925);
+INSERT INTO lieu(ID_LIEU,NOM_LIEU,ADRESSE,CAPACITE) VALUES (16,'theatre opera','CITE DE LA CULTURE A TUNIS',1800);
