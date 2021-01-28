@@ -1,8 +1,38 @@
-EXECUTE GEST_LIEU.AJOUTER_LIEU('Cinevog','10 Rue Saïd Abou Baker - Tunis - Tunisie',200);
-EXECUTE GEST_LIEU.AJOUTER_LIEU('La Rio','92 Rue de Yougoslavie - Tunis - Tunisie',850);
+EXECUTE GEST_LIEU.AJOUTER_LIEU('Cinevog2','10 Rue Saïd Abou Baker - Tunis - Tunisie',200);
 
---SELECT * FROM LIEU;
+SELECT * FROM LIEU;
 
-EXECUTE GEST_LIEU.MODIF_LIEU_CAP(17,300);
+EXECUTE GEST_LIEU.MODIF_LIEU_CAP(6,300);
 
---SELECT * FROM LIEU;
+SELECT * FROM LIEU;
+
+--Probleme date
+EXECUTE GEST_SPEC.AJOUT_SPEC('Titre Spectacle','12-Jan-2021',20,2,200,2);
+
+--Probleme capacite lieu
+EXECUTE GEST_SPEC.AJOUT_SPEC('Titre Spectacle','12-Mar-2021',20,2,600,2);
+
+
+EXECUTE GEST_SPEC.AJOUT_SPEC('Titre Spectacle','12-Mar-2021',19,4,500,2);
+
+SELECT * FROM SPECTACLE;
+
+EXECUTE GEST_SPEC.MODIF_SPEC(1,'Titre modifie',NULL,NULL,NULL,NULL,NULL);
+
+SELECT * FROM ARTISTE;
+-- Nom compatibilite type rubrique et artiste
+EXECUTE GEST_SPEC.AJOUT_RUB(1,1,21,1,'test');
+
+EXECUTE GEST_SPEC.AJOUT_RUB(1,1,21,1,'musicien');
+EXECUTE GEST_SPEC.AJOUT_RUB(1,1,22,1,'musicien');
+EXECUTE GEST_SPEC.AJOUT_RUB(1,1,23,1,'musicien');
+
+
+-- Erreur nb rubrique >3
+EXECUTE GEST_SPEC.AJOUT_RUB(1,1,19,1,'musicien');
+
+EXECUTE GEST_LIEU.SUPP_LIEU(2);
+EXECUTE GEST_SPEC.ANNULER_SPEC(5);
+SELECT * FROM LIEU;
+
+
